@@ -12,10 +12,10 @@ body {
     font-family: Helvetica;
 }
 
-.container1 {
+#container1 {
     display: grid;
-    grid-template-columns: 4ren;
-
+    grid-template-columns: 22% 1fr 1fr;
+    gap: 17px;
 }
 
 .quadro1 {
@@ -26,6 +26,7 @@ body {
     color: rgb(0, 0, 0);
     padding: 30px;
     align-items: center;
+    max-height:65%;
 }
 
 .post {
@@ -41,6 +42,7 @@ body {
     color: white;
     padding: 38px;
     align-items: center;
+    max-height: 55%;
 }
 
 .social {
