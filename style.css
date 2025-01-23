@@ -4,18 +4,28 @@
  box-sizing: border-box;
 }
 
+#tudo {
+    border: 1px solid;
+    display: grid;
+    grid-template-rows: 43%;
+    border-radius: 12px;
+    background-color: rgb(230, 230, 230);
+    margin-top: 80px;
+    width: 796px;
+}
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
     font-family: Helvetica;
 }
 
 #container1 {
     display: grid;
-    grid-template-columns: 22% 1fr 1fr;
-    gap: 17px;
+    grid-template-columns: 25% 1fr 1fr;
+    gap: 30px;
 }
 
 .quadro1 {
@@ -67,15 +77,91 @@ body {
     padding: 23px;
     align-items: center;
     padding-left: 10px;
+
 }
 
 .besttime {
     height: 250px;
     width: 175px;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
 }
 
 .publish {
     font-size: 15px;
 }
+
+#container2 {
+    display: grid;
+    grid-template-columns: 32% 1fr 1fr;
+    padding-left: 226px;
+}
+
+.quadro4 {
+    width: 173px;
+    border-radius: 12px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    align-items: center;
+    height: 170px;
+}
+
+.follow {
+    height: 42px;
+    width: 150px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    padding-right: 7px;
+}
+
+.platforms {
+    font-size: 15px; 
+}
+
+
+
+
+
+.quadro5 {
+    width: 173px;
+    border-radius: 12px;
+    font-size: 25px;
+    background-color: rgb(245, 211, 98);
+    color: rgb(0, 0, 0);
+    padding: 29px;
+    align-items: center;
+    height: 170px;
+}
+
+.date {
+    height: 67px;
+    width: 159px;
+    margin: 7px;
+    margin-left: -22px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.main {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.quadro6 {
+    width: 200px;
+    border-radius: 12px;
+    font-size: 25px;
+    background-color: rgb(252, 238, 218);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    align-items: center;
+    max-height:65%;
+}
+
