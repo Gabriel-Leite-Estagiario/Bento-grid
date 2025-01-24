@@ -94,7 +94,7 @@ body {
     display: grid;
     grid-template-columns: 32% 1fr;
     padding-left: 220px;
-    margin-bottom: -130px;
+    margin-bottom: -159px;
     padding-top: 40px;
 }
 
@@ -107,7 +107,7 @@ body {
     padding: 30px;
     align-items: center;
     height: 170px;
-    margin-top: 43px;
+    margin-top: 49px;
 }
 
 .follow {
@@ -135,7 +135,7 @@ body {
     padding: 29px;
     align-items: center;
     height: 170px;
-    margin-top: 43px;
+    margin-top: 49px;
 }
 
 .date {
@@ -175,7 +175,7 @@ body {
     height: 71%;
     padding-left: 23px;
     margin-left: 30px;
-    margin-top: -25px;
+    margin-top: -29px;
 }
 
 .ai {
@@ -192,7 +192,7 @@ body {
     padding: 20px;
     align-items: center;
     height: 170px;
-    margin-top: 125px;
+    margin-top: 120px;
     margin-left: -210px;
 }
 
@@ -218,7 +218,7 @@ body {
     padding-top: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 125px;
+    margin-top: 120px;
     margin-left: -60px;
 }
 
