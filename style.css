@@ -1,24 +1,25 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #tudo {
-    border: 1px solid;
     display: grid;
     grid-template-rows: 27%;
+    background-color: rgb(255, 255, 255);
     border-radius: 12px;
-    background-color: rgb(230, 230, 230);
-    margin-top: 80px;
+    margin-top: 50px;
     width: 780px;
+    zoom: 1.3;
+    overflow: hidden;
 }
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 226, 226);
     font-family: Helvetica;
 }
 
@@ -36,7 +37,7 @@ body {
     color: rgb(0, 0, 0);
     padding: 30px;
     align-items: center;
-    max-height:65%;
+    max-height: 65%;
 }
 
 .post {
@@ -60,8 +61,8 @@ body {
 }
 
 .stars {
-   height: 25px;
-   width: 150px;
+    height: 25px;
+    width: 150px;
 }
 
 .over {
@@ -102,7 +103,7 @@ body {
     width: 173px;
     border-radius: 12px;
     font-size: 25px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(246, 246, 246);
     color: rgb(0, 0, 0);
     padding: 30px;
     align-items: center;
@@ -119,12 +120,8 @@ body {
 }
 
 .platforms {
-    font-size: 15px; 
+    font-size: 15px;
 }
-
-
-
-
 
 .quadro5 {
     width: 173px;
@@ -151,9 +148,6 @@ body {
     font-size: 15px;
 }
 
-
-
-
 #container3 {
     display: grid;
     grid-template-columns: 100% 1fr 1fr;
@@ -175,7 +169,7 @@ body {
     height: 71%;
     padding-left: 23px;
     margin-left: 30px;
-    margin-top: -29px;
+    margin-top: -30px;
 }
 
 .ai {
@@ -187,12 +181,12 @@ body {
     width: 173px;
     border-radius: 12px;
     font-size: 25px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(246, 246, 246);
     color: rgb(0, 0, 0);
     padding: 20px;
     align-items: center;
     height: 170px;
-    margin-top: 120px;
+    margin-top: 117px;
     margin-left: -210px;
 }
 
@@ -218,7 +212,7 @@ body {
     padding-top: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 120px;
+    margin-top: 117px;
     margin-left: -60px;
 }
 
